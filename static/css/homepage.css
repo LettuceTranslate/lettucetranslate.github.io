@@ -1,0 +1,117 @@
+html {
+	position: relative;
+	min-height:100%;
+}
+
+body {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+}
+
+.container {
+	width: 100%;
+    max-width: 950px;
+	padding: 0px;
+	vertical-align: middle;
+}
+
+nav {
+    font-family: "News Cycle",sans-serif;
+    z-index: 100;
+    position: relative;
+}
+
+.nav-img {
+  padding: 0 !important;
+  height: 40px;
+  margin-top: -10px;
+}
+
+h1 {
+    text-align: center;
+	color: #006600;
+}
+
+.homepage-bg {
+	background-attachment: fixed;
+	background-size: 100%;
+	position: relative;
+	width: 100%;
+	max-height: 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.homepage-title-background {
+	background-position: center 0;
+}
+
+
+.homepage-bg:before {
+	content: "";
+	display: block;
+	padding-top: 40%;
+}
+
+.homepage-text {
+	padding: 50px;
+	padding-top: 10px;
+	font-family: "News Cycle",sans-serif;
+	text-align: center;
+}
+
+.spec-list {
+	text-align: left;
+}
+
+.spec-list p {
+	color: #00cc00;
+	text-align: center;
+	font-weight: bold;
+}
+
+.home-logo-div {
+	position: absolute;
+	top: 80px;
+	left: 0px;
+	right: 0px;
+}
+
+.home-logo {
+	background-color: white;
+	border-radius: 30px;
+	padding: 20px;
+	max-height: 220px;
+	max-width: 220px;
+}
+
+.home-logo-text {
+	color: white;
+	background-color: #006600;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+.bottom-homepage-text {
+	margin-top: 30px;
+	margin-bottom: -50px;
+	color: #777;
+}
+
+.contact-details {
+	font-size: 1.5em;
+}
+
+#background-image-one {
+	background-image: url("/images/cogs.jpg");
+}
+
+#background-image-two {
+	background-image: url("/images/galaxy.jpg");
+}
+
+#background-image-title {
+	background-image: url("/images/drill-bits.jpg");
+}

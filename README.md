@@ -4,7 +4,7 @@ A single page website to help drive traffic to the Lettuce Translate business.
 
 ## Image credits
 
-All images used are licences under the Creative Commons Zero (CC0) licence
+All images used are licenced under the Creative Commons Zero (CC0) licence.
 
 | Image | Source |
 |-------|--------|
